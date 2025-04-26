@@ -1,4 +1,5 @@
 ## Ex.No:7 Develop an android application to display the country name with image using list view in android studio.
+
 ## AIM:
 To create and develop the application to display the place name with image using list view in android studio
 
@@ -6,7 +7,7 @@ To create and develop the application to display the place name with image using
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-## Step 1:Open Android Stdio and then click on File -> New -> New project.
+Step 1:Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “listview″ and click Next.
 
@@ -22,12 +23,13 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 /*
-```
 Program to print the list of item.
-Developed by:GRACIA RAVI R
-Registeration Number :212222040047
-```
+
+Developed by: GRACIA RAVI R
+
+Registeration Number : 212222040047
 */
+
 ## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -45,6 +47,7 @@ Registeration Number :212222040047
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 ## mylist.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -62,6 +65,7 @@ Registeration Number :212222040047
     android:textColor="#4d4d4d"
     />
 ```
+
 ## strings.xml:
 ```
 <resources>
@@ -82,6 +86,7 @@ Registeration Number :212222040047
     </string-array>
 </resources>
 ```
+
 ## MainActivity.java:
 ```
 package com.example.exp7;
@@ -125,9 +130,11 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/f177fe41-9d54-494d-847c-2a4bc88de12d)
-![image](https://github.com/user-attachments/assets/3527d49c-5b57-4f0f-96c4-28f35524229f)
+
+## OUTPUT
+![image](https://github.com/user-attachments/assets/f63f7628-2894-49a9-8db4-ffdd4eaea12b)
+
+![image](https://github.com/user-attachments/assets/c98fddd5-07c5-42b7-b645-a549ec5d5c02)
 
 
 ## RESULT
